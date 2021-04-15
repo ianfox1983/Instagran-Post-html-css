@@ -1,0 +1,48 @@
+body { background: black;}
+
+.post {width:30rem;
+    height:46rem;
+    margin:auto;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+header :last-child {margin-left:auto;}
+
+.bold{font-weight: 600;}
+
+i {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: x-large;
+}
+
+.title {
+    margin-left: 0.5em;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+img {
+    width:30rem; 
+    height:30rem;
+    padding-bottom: 1rem;
+}
+
+footer :nth-child(4) {
+    margin-left:auto;
+    margin-right: 0.5rem;
+}
+
+section {display: flex;}
+
+p {
+    margin: 0.5rem;
+    margin-top: 1.5rem;
+}
